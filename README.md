@@ -1,2 +1,2 @@
 # aplib
-converted aplib decompression routine to work in Python 2.7
+After unsucessfully being able to find a python 2.7 implementation of the aplib decompression routine, I decided to modify a Python 3 aplib decompression routine i found to work in Python 2.7. The primary changes were the removal of print statements and how the read_byte function handles reading through the stream of bytes. This is a total hack of someone elses hack, so dont expect much. I needed this so that I could decompress the data that the loki-bot grabber malware exfiltrates. 
